@@ -20,10 +20,7 @@
 #     --smtp-user you@gmail.com --smtp-pass APP_PASSWORD \
 #     --email-from you@gmail.com -i 60
 ##katarzyna.sobiesiak@gmail.com
-# ruby check_word.rb -u "https://www.mastersofwine.org/mw-exam" -w "2026" -n email --smtp-host smtp.gmail.com --smtp-port 587 --smtp-user romalopes@gmail.com --smtp-pass "mjjn fgsv nzug sfjr" --email-from romalopes@gmail.com --email-to romalopes@yahoo.com.br -i 0.5 -N 2 --stop-on-found -n sms --sms-to 0402522058 --sms-carrier optus -n ntfy --ntfy-topic "MW-Exam-Practical" --ntfy-priority high --ntfy-tags "tags"
 
-# ruby check_word.rb -u "https://www.mastersofwine.org/mw-exam" -w "Master" -n email --smtp-host smtp.gmail.com --smtp-port 587 --smtp-user romalopes@gmail.com --smtp-pass "mjjn fgsv nzug sfjr" --email-from romalopes@gmail.com --email-to romalopes@yahoo.com.br
-# mjjn fgsv nzug sfjr
 #
 # Exit codes:
 #   0 = word found (and notification sent if requested)
